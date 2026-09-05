@@ -2,6 +2,10 @@
 
 TyranoScript で作成したゲームをローカルで動作確認するためのリポジトリです。
 
+## 公開版
+
+ゲームは [GitHub Pages](https://dev-creatives.github.io/project-tyrano/) で遊べます。`main` ブランチへの push 時に自動で更新されます。GitHub Actions の "Deploy GitHub Pages" workflow は、Actions 画面から手動実行することもできます。
+
 ## 必要なもの
 
 Node.js `24.20.0` と pnpm `12.3.2` が必要です。
