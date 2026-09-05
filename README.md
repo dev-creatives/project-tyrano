@@ -4,7 +4,13 @@ TyranoScript で作成したゲームをローカルで動作確認するため�
 
 ## 公開版
 
-ゲームは [GitHub Pages](https://dev-creatives.github.io/project-tyrano/) で遊べます。`main` ブランチへの push 時に自動で更新されます。GitHub Actions の "Deploy GitHub Pages" workflow は、Actions 画面から手動実行することもできます。
+ゲームは [GitHub Pages](https://dev-creatives.github.io/project-tyrano/) で遊べます。
+
+このリポジトリは GitHub Pages で公開するため public に設定されています。`.github/workflows/deploy-pages.yml` の "Deploy GitHub Pages" workflow が、リポジトリ直下のゲーム資産をそのまま公開します。ビルドや依存関係のインストールは行いません。
+
+- `main` ブランチへの push で自動デプロイされます。
+- GitHub Actions の画面から手動実行（`workflow_dispatch`）することもできます。
+- カスタムドメインは使用せず、公開 URL は `https://dev-creatives.github.io/project-tyrano/` です。
 
 ## 必要なもの
 
